@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+    .main{
+    height: 75vh;
+    background-image: url("images/backgroundfront.jpg");
+    background-size: max(100vw,1200px);
+    background-position:center center ;
+    background-repeat: no-repeat;
+    position:relative;
+}
+.main .box{ 
+    height: 75vh;
+    width:100%;
+    opacity:0.6;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav{
+    max-width: 65vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height:70px;
+}
+nav img{
+    width:120px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.details{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 20px;
+}
+.details :first-child{
+    font-weight: 900;
+    font-size: 48px;
+}
