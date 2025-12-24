@@ -125,11 +125,11 @@ border-radius: 50px;
  }
  .line1{
     background-color: red;
-    height: 2px;
+    height: 1px;
     background: linear-gradient(to right,
         rgba(180, 30, 30, 0.06) 0%,
-        rgba(180, 30, 30, 0.18) 50%,
-        rgba(180, 30, 30, 0.06) 100%);
+        rgb(180, 30, 30) 50%,
+        rgba(180, 30, 30, 0.144) 100%);
  }
  .flex{
     display: flex;
