@@ -1,102 +1,231 @@
-*{
-    margin: 0;
-}
-body{
-    background-color: black;
-}
-    .main{
-    height: 85vh;
-    background-image: url("images/backgroundfront.jpg");
-    background-size: max(100vw,1200px);
-    background-position:center center ;
-    background-repeat: no-repeat;
-    position:relative;
-}
-.main .box{ 
-    height: 85vh;
-    width:100%;
-    opacity:0.75;
-    position: absolute;
-    top: 0;
-    background-color: black;
-}
-nav{
-    max-width: 65vw;
-    justify-content: space-between;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    height:70px;
-}
-nav img{
-    width:150px;
-    position: relative;
-    z-index: 10;
-}
-nav button{
-    position: relative;
-    z-index: 10;
-}
-.details{
-    height:74vh ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: white;
-    position: relative;
-    gap: 20px;
-    padding: 0 20px;
-}
-.details> :nth-child(1){
-    font-weight: 1000;
-    font-size: 48px;
-    text-align: center;
-}
-.details> :nth-child(2) {
-    font-weight: 1000;
-    font-size: 48px;
-    text-align: center;
-}
-.details> :nth-child(3){
-    font-size: 28px;
-    font-weight: 450px;
-    text-align: center;
+ * {
+     margin: 0;
+ }
 
-}
-.details> :nth-child(4){
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
-}
-.line{
-    height:5px ;
-    background-color: rgb(9, 120, 224);
-    opacity: 0.5;
-}
-.btn{
-    padding: 3px 8px;
-    background-color: white;
-    font-size: 18px;
-}
-.red{
-background-color: red;
-    color: white;
-}
-.red1{
+ body {
+     background-color: black;
+ }
+
+ .main {
+     height: 85vh;
+     background-image: url("images/backgroundfront.jpg");
+     background-size: max(100vw, 1200px);
+     background-position: center center;
+     background-repeat: no-repeat;
+     position: relative;
+ }
+
+ .main .box {
+     height: 85vh;
+     width: 100%;
+     opacity: 0.75;
+     position: absolute;
+     top: 0;
+     background-color: black;
+ }
+
+ nav {
+     max-width: 65vw;
+     justify-content: space-between;
+     margin: auto;
+     display: flex;
+     align-items: center;
+     height: 70px;
+ }
+
+ nav img {
+     width: 150px;
+     position: relative;
+     z-index: 10;
+ }
+
+ nav button {
+     position: relative;
+     z-index: 10;
+ }
+
+ .details {
+     height: 74vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     color: white;
+     position: relative;
+     gap: 20px;
+     padding: 0 20px;
+ }
+
+ .details> :nth-child(1) {
+     font-weight: 1000;
+     font-size: 48px;
+     text-align: center;
+ }
+
+ .details> :nth-child(2) {
+     font-weight: 1000;
+     font-size: 48px;
+     text-align: center;
+ }
+
+ .details> :nth-child(3) {
+     font-size: 28px;
+     font-weight: 450px;
+     text-align: center;
+ }
+
+ .details> :nth-child(4) {
+     font-size: 20px;
+     font-weight: 400;
+     text-align: center;
+ }
+ .line {
+     height: 3px;
+     background-color: red;
+border-radius: 50px;
+     
+
+ }
+ .btn {
+     padding: 3px 8px;
+     background-color: white;
+     font-size: 18px;
+ }
+
+ .red {
+     background-color: red;
+     color: white;
+ }
+
+ .red1 {
+     background-color: red;
+     color: white;
+     padding: 6px 29px;
+     height: 45px;
+     font-weight: 500;
+     font-size: 29px;
+     border-radius: 7px color solid red;
+ }
+
+ .mail {
+     background-color: rgba(0, 0, 0, 0.452);
+     height: 33px;
+     width: 250px;
+     padding: 6px 29px;
+     font-size: 20px;
+     color: white;
+ }
+ .textbox{
+    color:white;
+    padding: 25px;
+    margin-left: 10%;
+    font-size:xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+ }
+ .line1{
     background-color: red;
-        color: white;
-padding: 6px 29px;
-    height: 45px;
-    font-weight: 500;
-    font-size: 29px;
-    border-radius: 7px color solid red;
+    height: 2px;
+    background: linear-gradient(to right,
+        rgba(180, 30, 30, 0.06) 0%,
+        rgba(180, 30, 30, 0.18) 50%,
+        rgba(180, 30, 30, 0.06) 100%);
+ }
+ .flex{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+ }
+ .img1 .img2 .img3 .img4{
+    width: 10%;
+ }
+ .text1{
+    margin-top: 4%;
+ }
+ .reasons{
+     display: flex;
+     justify-content: center;
+     margin-top: 3%;
+     gap: 20px;
+    
+ }
+ .enjoy{
+    background-color: rgb(66, 11, 117);
+    margin-left: 10%;
+    height: 300px;
+    width: 300px;
+    border-radius: 6px;
+ }
+.download{
+    background-color: rgb(66, 11, 117);
+    height: 300px;
+    width: 300px;
+    border-radius: 6px;
 }
-.mail{
-    background-color: rgba(0, 0, 0, 0.452);
-    height: 33px ;
-    width:250px;
-    padding: 6px  29px;
-    font-size: 20px;
+.watch {
+    background-color: rgb(66, 11, 117);
+    /* height: 500px;
+    width: 200px; */
+    height: 300px;
+        width: 300px;
+        border-radius: 6px;
+}
+.create {
+    background-color: rgb(66, 11, 117);
+    margin-right: 10%;
+    /* height: 500px;
+    width: 200px; */
+    height: 300px;
+        width: 300px;
+        border-radius: 10px;
+}
+.enjoy :first-child {
+color: white;
+padding: 20px;
+font-family:   'Calibri', 'Trebuchet MS', sans-serif;
+font-size:xx-large;
+font-weight:bolder;
+}
+.enjoy :nth-child(2){
+color: rgba(255, 255, 255, 0.315);
+font-weight: bolder;
+padding: 10px;
+}
+.download :first-child {
     color: white;
+    padding: 20px;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.download :nth-child(2) {
+    color: rgba(255, 255, 255, 0.315);
+    font-weight: bolder;
+    padding: 10px;
+}.watch :first-child {
+    color: white;
+    padding: 20px;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.watch :nth-child(2) {
+    color: rgba(255, 255, 255, 0.315);
+    font-weight: bolder;
+    padding: 10px;
+}
+.create :first-child {
+    color: white;
+    padding: 20px;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.create :nth-child(2) {
+    color: rgba(255, 255, 255, 0.315);
+    font-weight: bolder;
+    padding: 10px;
 }
