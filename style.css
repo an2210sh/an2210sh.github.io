@@ -81,7 +81,9 @@
  }
  .line {
      height: 3px;
-     background-color: red;
+     background-color: rgb(180, 30, 30);
+     z-index: 10;
+     position: relative;
 border-radius: 50px;
      
 
@@ -124,7 +126,6 @@ border-radius: 50px;
         font-weight: bolder;
  }
  .line1{
-    background-color: red;
     height: 1px;
     background: linear-gradient(to right,
         rgba(180, 30, 30, 0.06) 0%,
