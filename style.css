@@ -242,3 +242,18 @@ padding: 10px;
     font-weight: bolder;
     padding: 10px;
 }
+.faq{
+    display: flex;
+    background-color: rgb(37, 36, 36);
+    padding: 24px;
+    margin: 0.7% 10%;
+    color: white;
+    font-weight: 900;
+    font-size: x-large;
+    font-family:  'sans-serif';
+    justify-content: space-between;
+}
+.start{
+    display: flex;
+     
+}
