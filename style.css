@@ -96,7 +96,7 @@ border-radius: 50px;
  .red {
      background-color: red;
      color: white;
-    }
+ }
     
     .sign {
         display: flex;
@@ -142,6 +142,7 @@ border-radius: 50px;
     display: flex;
     justify-content: center;
     padding: 3%;
+    gap: 74px;
   
  }
 
@@ -248,9 +249,12 @@ padding: 10px;
     font-weight: bolder;
     padding: 10px;
 }
+.faq:hover{
+    background-color: #414141;
+}
 .faq{
     display: flex;
-    background-color: rgb(53, 51, 51);
+    background-color: rgb(43, 41, 41);
     padding: 24px;
     margin: 0.7% 10%;
     color: white;
@@ -273,12 +277,11 @@ padding: 10px;
      justify-content: center;
      gap: 8px;
      height: 50px;
-    
-
 }
 .mail2{
     background-color: rgba(63, 60, 60, 0.452);
     width: 45%;
+    padding-left: 10px;
 }
 .start button{
     background-color: red ;
@@ -286,4 +289,23 @@ padding: 10px;
     align-items: center;
     width: 12%;
     border-radius: 5%;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: rgb(255, 251, 251);
+    max-width: 60vw;
+    margin: auto;
+
+}
+.finish{
+    display: flex;
+    flex-direction:column;
+    color: white;
+}
+.call{
+    text-align: center;
+    color: white ;
+    margin: 3% 0;
+    font-size: medium;
 }
