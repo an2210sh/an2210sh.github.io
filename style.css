@@ -293,19 +293,18 @@ padding: 10px;
 .foot{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    color: rgb(255, 251, 251);
     max-width: 60vw;
     margin: auto;
 
 }
-.finish{
+.finish a{
     display: flex;
     flex-direction:column;
-    color: white;
+color: rgb(255, 251, 251);
 }
 .call{
     text-align: center;
-    color: white ;
+    color: rgb(255, 251, 251);
     margin: 3% 0;
     font-size: medium;
 }
